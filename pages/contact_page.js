@@ -37,7 +37,7 @@ module.exports = {
         }
     },
     sendForm() {
-        I.waitForClickable(this.submitButton);
+        I.waitForClickable(this.submitButton, 2);
         I.click(this.submitButton);
     },
     removeName(){

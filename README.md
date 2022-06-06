@@ -29,4 +29,3 @@ allure serve .\output\
 
 
 
-
