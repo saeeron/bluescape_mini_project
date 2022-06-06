@@ -1,6 +1,6 @@
 # CodeceptJS example
 
-This repository applies CodeceptJS and WebdriverIO to automated some testing scenarios on https://bluescapeqainterview.wordpress.com/contact/. 
+This repository applies CodeceptJS and WebdriverIO to automate some testing scenarios on https://bluescapeqainterview.wordpress.com/contact/. 
 
 ## Installation
 
@@ -19,7 +19,7 @@ Run test by executing
 ```angular2html
 npx codeceptjs run --steps  
 ```
-See an allure report by executing (allure needs to be installed seperately using "brew"
+See an allure report by executing (allure needs to be installed separately using "brew"
 on macOS or "scoop" on Windows)
 ```angular2html
 allure serve .\output\
