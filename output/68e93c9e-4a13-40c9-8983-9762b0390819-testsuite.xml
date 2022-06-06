@@ -1,0 +1,665 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654489348448' stop='1654489392381'>
+    <name>Contact Us Page Functionality:</name>
+    <title>Contact Us Page Functionality:</title>
+    <test-cases>
+        <test-case start='1654489359291' status='passed' stop='1654489376490'>
+            <name>Verify the happy path, where the form is accepted</name>
+            <title>Verify the happy path, where the form is accepted</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1654489359306' status='passed' stop='1654489359306'>
+                    <name>Given I am on Contact Us page</name>
+                    <title>Given I am on Contact Us page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489359310' status='passed' stop='1654489361457'>
+                    <name>IonContactPage: start </name>
+                    <title>IonContactPage: start </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1654489359310' status='passed' stop='1654489361293'>
+                            <name>I am on page "contact/"</name>
+                            <title>I am on page "contact/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489361295' status='passed' stop='1654489361457'>
+                            <name>I resize window "maximize"</name>
+                            <title>I resize window "maximize"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1654489361457' status='passed' stop='1654489361625'>
+                    <name>I see "required"</name>
+                    <title>I see "required"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489361636' status='passed' stop='1654489361639'>
+                    <name>I create fake name </name>
+                    <title>I create fake name </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489361640' status='passed' stop='1654489361642'>
+                    <name>I create fake email </name>
+                    <title>I create fake email </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489361642' status='passed' stop='1654489361644'>
+                    <name>I create fake website </name>
+                    <title>I create fake website </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489361644' status='passed' stop='1654489361647'>
+                    <name>I create fake date </name>
+                    <title>I create fake date </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489361647' status='passed' stop='1654489361647'>
+                    <name>When I fill/send the form with valid data</name>
+                    <title>When I fill/send the form with valid data</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489361651' status='passed' stop='1654489364533'>
+                    <name>IonContactPage: fillForm {"name":"Shane Jakubowski","email":"Maida_Schroeder@hotmail.com","URL":"http://alisha.info","date":"5/5/2022"}</name>
+                    <title>IonContactPage: fillForm {"name":"Shane Jakubowski","email":"Maida_Schroeder@hotmail.com","URL":"http://alisha.info","date":"5/5/2022"}</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1654489361651' status='passed' stop='1654489362017'>
+                            <name>I clear field "Name"</name>
+                            <title>I clear field "Name"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489362018' status='passed' stop='1654489362461'>
+                            <name>I fill field "Name", "Shane Jakubowski"</name>
+                            <title>I fill field "Name", "Shane Jakubowski"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489362462' status='passed' stop='1654489362946'>
+                            <name>I clear field "Email"</name>
+                            <title>I clear field "Email"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489362946' status='passed' stop='1654489363443'>
+                            <name>I fill field "Email", "Maida_Schroeder@hotmail.com"</name>
+                            <title>I fill field "Email", "Maida_Schroeder@hotmail.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489363443' status='passed' stop='1654489363547'>
+                            <name>I clear field "Website"</name>
+                            <title>I clear field "Website"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489363547' status='passed' stop='1654489363677'>
+                            <name>I fill field "Website", "http://alisha.info"</name>
+                            <title>I fill field "Website", "http://alisha.info"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489363678' status='passed' stop='1654489364080'>
+                            <name>I clear field "Date"</name>
+                            <title>I clear field "Date"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489364080' status='passed' stop='1654489364533'>
+                            <name>I fill field "Date", "5/5/2022"</name>
+                            <title>I fill field "Date", "5/5/2022"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1654489364533' status='passed' stop='1654489375843'>
+                    <name>IonContactPage: sendForm </name>
+                    <title>IonContactPage: sendForm </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1654489364533' status='passed' stop='1654489364605'>
+                            <name>I wait for clickable {"css":".contact-submit .pushbutton-wide"}</name>
+                            <title>I wait for clickable {"css":".contact-submit .pushbutton-wide"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489364605' status='passed' stop='1654489375839'>
+                            <name>I click {"css":".contact-submit .pushbutton-wide"}</name>
+                            <title>I click {"css":".contact-submit .pushbutton-wide"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489375840' status='passed' stop='1654489375840'>
+                            <name>Then I see that I can proceed</name>
+                            <title>Then I see that I can proceed</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1654489375843' status='passed' stop='1654489375900'>
+                    <name>I wait for invisible "form.contact-form"</name>
+                    <title>I wait for invisible "form.contact-form"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489375900' status='passed' stop='1654489376045'>
+                    <name>I wait for text "Message Sent", 2</name>
+                    <title>I wait for text "Message Sent", 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489376045' status='passed' stop='1654489376078'>
+                    <name>I see in current url "-sent"</name>
+                    <title>I see in current url "-sent"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489376079' status='passed' stop='1654489376198'>
+                    <name>I see "Shane Jakubowski"</name>
+                    <title>I see "Shane Jakubowski"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489376198' status='passed' stop='1654489376322'>
+                    <name>I see "Maida_Schroeder@hotmail.com"</name>
+                    <title>I see "Maida_Schroeder@hotmail.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489376322' status='passed' stop='1654489376422'>
+                    <name>I see "http://alisha.info"</name>
+                    <title>I see "http://alisha.info"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489376422' status='passed' stop='1654489376489'>
+                    <name>I see "5/5/2022"</name>
+                    <title>I see "5/5/2022"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1654489376781' status='passed' stop='1654489380703'>
+            <name>Verify that the field "Website" is required to be a valid URL</name>
+            <title>Verify that the field "Website" is required to be a valid URL</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1654489376785' status='passed' stop='1654489376785'>
+                    <name>Given I am on Contact Us page</name>
+                    <title>Given I am on Contact Us page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489376786' status='passed' stop='1654489377367'>
+                    <name>IonContactPage: start </name>
+                    <title>IonContactPage: start </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1654489376786' status='passed' stop='1654489377359'>
+                            <name>I am on page "contact/"</name>
+                            <title>I am on page "contact/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489377359' status='passed' stop='1654489377367'>
+                            <name>I resize window "maximize"</name>
+                            <title>I resize window "maximize"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1654489377367' status='passed' stop='1654489377483'>
+                    <name>I see "required"</name>
+                    <title>I see "required"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489377489' status='passed' stop='1654489377490'>
+                    <name>I create fake name </name>
+                    <title>I create fake name </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489377491' status='passed' stop='1654489377491'>
+                    <name>I create fake email </name>
+                    <title>I create fake email </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489377492' status='passed' stop='1654489377493'>
+                    <name>I create unacceptable u r l </name>
+                    <title>I create unacceptable u r l </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489377493' status='passed' stop='1654489377494'>
+                    <name>I create fake date </name>
+                    <title>I create fake date </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489377494' status='passed' stop='1654489377494'>
+                    <name>When I fill the form with invalid URL and valid rest</name>
+                    <title>When I fill the form with invalid URL and valid rest</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489377497' status='passed' stop='1654489380390'>
+                    <name>IonContactPage: fillForm {"name":"Aubrey Williamson","email":"Corene.Jacobson24@gmail.com","URL":"httpsdevan.net","date":"5/5/2022"}</name>
+                    <title>IonContactPage: fillForm {"name":"Aubrey Williamson","email":"Corene.Jacobson24@gmail.com","URL":"httpsdevan.net","date":"5/5/2022"}</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1654489377497' status='passed' stop='1654489377964'>
+                            <name>I clear field "Name"</name>
+                            <title>I clear field "Name"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489377964' status='passed' stop='1654489378433'>
+                            <name>I fill field "Name", "Aubrey Williamson"</name>
+                            <title>I fill field "Name", "Aubrey Williamson"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489378433' status='passed' stop='1654489378745'>
+                            <name>I clear field "Email"</name>
+                            <title>I clear field "Email"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489378746' status='passed' stop='1654489379191'>
+                            <name>I fill field "Email", "Corene.Jacobson24@gmail.com"</name>
+                            <title>I fill field "Email", "Corene.Jacobson24@gmail.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489379192' status='passed' stop='1654489379253'>
+                            <name>I clear field "Website"</name>
+                            <title>I clear field "Website"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489379253' status='passed' stop='1654489379426'>
+                            <name>I fill field "Website", "httpsdevan.net"</name>
+                            <title>I fill field "Website", "httpsdevan.net"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489379427' status='passed' stop='1654489379841'>
+                            <name>I clear field "Date"</name>
+                            <title>I clear field "Date"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489379843' status='passed' stop='1654489380389'>
+                            <name>I fill field "Date", "5/5/2022"</name>
+                            <title>I fill field "Date", "5/5/2022"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1654489380390' status='passed' stop='1654489380575'>
+                    <name>IonContactPage: sendForm </name>
+                    <title>IonContactPage: sendForm </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1654489380390' status='passed' stop='1654489380490'>
+                            <name>I wait for clickable {"css":".contact-submit .pushbutton-wide"}</name>
+                            <title>I wait for clickable {"css":".contact-submit .pushbutton-wide"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489380490' status='passed' stop='1654489380574'>
+                            <name>I click {"css":".contact-submit .pushbutton-wide"}</name>
+                            <title>I click {"css":".contact-submit .pushbutton-wide"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489380574' status='passed' stop='1654489380574'>
+                            <name>Then I see that the form is not accepted</name>
+                            <title>Then I see that the form is not accepted</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1654489380575' status='passed' stop='1654489380599'>
+                    <name>I dont see in current url "-sent"</name>
+                    <title>I dont see in current url "-sent"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489380599' status='passed' stop='1654489380703'>
+                    <name>I dont see "Message Sent"</name>
+                    <title>I dont see "Message Sent"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1654489381069' status='failed' stop='1654489392089'>
+            <name>Verify that name and url are required to send form</name>
+            <title>Verify that name and url are required to send form</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1654489381073' status='passed' stop='1654489381073'>
+                    <name>Given I am on Contact Us page</name>
+                    <title>Given I am on Contact Us page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489381074' status='passed' stop='1654489381504'>
+                    <name>IonContactPage: start </name>
+                    <title>IonContactPage: start </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1654489381074' status='passed' stop='1654489381488'>
+                            <name>I am on page "contact/"</name>
+                            <title>I am on page "contact/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489381488' status='passed' stop='1654489381504'>
+                            <name>I resize window "maximize"</name>
+                            <title>I resize window "maximize"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1654489381504' status='passed' stop='1654489381719'>
+                    <name>I see "required"</name>
+                    <title>I see "required"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489381722' status='passed' stop='1654489381723'>
+                    <name>I create fake name </name>
+                    <title>I create fake name </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489381723' status='passed' stop='1654489381724'>
+                    <name>I create fake email </name>
+                    <title>I create fake email </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489381725' status='passed' stop='1654489381726'>
+                    <name>I create fake website </name>
+                    <title>I create fake website </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489381727' status='passed' stop='1654489381728'>
+                    <name>I create fake date </name>
+                    <title>I create fake date </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489381728' status='passed' stop='1654489381728'>
+                    <name>When I fill the form with valid date</name>
+                    <title>When I fill the form with valid date</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489381732' status='passed' stop='1654489384843'>
+                    <name>IonContactPage: fillForm {"name":"Annie Bechtelar","email":"Louisa.Kihn@hotmail.com","URL":"http://estel.name","date":"4/5/2022"}</name>
+                    <title>IonContactPage: fillForm {"name":"Annie Bechtelar","email":"Louisa.Kihn@hotmail.com","URL":"http://estel.name","date":"4/5/2022"}</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1654489381732' status='passed' stop='1654489382103'>
+                            <name>I clear field "Name"</name>
+                            <title>I clear field "Name"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489382103' status='passed' stop='1654489382545'>
+                            <name>I fill field "Name", "Annie Bechtelar"</name>
+                            <title>I fill field "Name", "Annie Bechtelar"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489382546' status='passed' stop='1654489383031'>
+                            <name>I clear field "Email"</name>
+                            <title>I clear field "Email"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489383031' status='passed' stop='1654489383564'>
+                            <name>I fill field "Email", "Louisa.Kihn@hotmail.com"</name>
+                            <title>I fill field "Email", "Louisa.Kihn@hotmail.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489383564' status='passed' stop='1654489383666'>
+                            <name>I clear field "Website"</name>
+                            <title>I clear field "Website"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489383666' status='passed' stop='1654489383820'>
+                            <name>I fill field "Website", "http://estel.name"</name>
+                            <title>I fill field "Website", "http://estel.name"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489383820' status='passed' stop='1654489384279'>
+                            <name>I clear field "Date"</name>
+                            <title>I clear field "Date"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489384280' status='passed' stop='1654489384840'>
+                            <name>I fill field "Date", "4/5/2022"</name>
+                            <title>I fill field "Date", "4/5/2022"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489384841' status='passed' stop='1654489384841'>
+                            <name>And I exclude Name and send form</name>
+                            <title>And I exclude Name and send form</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1654489384843' status='passed' stop='1654489385286'>
+                    <name>IonContactPage: removeName </name>
+                    <title>IonContactPage: removeName </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1654489384843' status='passed' stop='1654489385285'>
+                            <name>I clear field "Name"</name>
+                            <title>I clear field "Name"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1654489385286' status='passed' stop='1654489385494'>
+                    <name>IonContactPage: sendForm </name>
+                    <title>IonContactPage: sendForm </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1654489385286' status='passed' stop='1654489385356'>
+                            <name>I wait for clickable {"css":".contact-submit .pushbutton-wide"}</name>
+                            <title>I wait for clickable {"css":".contact-submit .pushbutton-wide"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489385357' status='passed' stop='1654489385492'>
+                            <name>I click {"css":".contact-submit .pushbutton-wide"}</name>
+                            <title>I click {"css":".contact-submit .pushbutton-wide"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489385493' status='passed' stop='1654489385493'>
+                            <name>Then I see that the form is not accepted</name>
+                            <title>Then I see that the form is not accepted</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1654489385494' status='passed' stop='1654489387499'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489387499' status='passed' stop='1654489387520'>
+                    <name>I dont see in current url "-sent"</name>
+                    <title>I dont see in current url "-sent"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489387521' status='passed' stop='1654489387639'>
+                    <name>I dont see "Message Sent"</name>
+                    <title>I dont see "Message Sent"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489387639' status='passed' stop='1654489387639'>
+                    <name>When I fill the form with valid date</name>
+                    <title>When I fill the form with valid date</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654489387641' status='passed' stop='1654489390503'>
+                    <name>IonContactPage: fillForm {"name":"Annie Bechtelar","email":"Louisa.Kihn@hotmail.com","URL":"http://estel.name","date":"4/5/2022"}</name>
+                    <title>IonContactPage: fillForm {"name":"Annie Bechtelar","email":"Louisa.Kihn@hotmail.com","URL":"http://estel.name","date":"4/5/2022"}</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1654489387642' status='passed' stop='1654489388049'>
+                            <name>I clear field "Name"</name>
+                            <title>I clear field "Name"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489388049' status='passed' stop='1654489388487'>
+                            <name>I fill field "Name", "Annie Bechtelar"</name>
+                            <title>I fill field "Name", "Annie Bechtelar"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489388487' status='passed' stop='1654489388892'>
+                            <name>I clear field "Email"</name>
+                            <title>I clear field "Email"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489388892' status='passed' stop='1654489389317'>
+                            <name>I fill field "Email", "Louisa.Kihn@hotmail.com"</name>
+                            <title>I fill field "Email", "Louisa.Kihn@hotmail.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489389317' status='passed' stop='1654489389366'>
+                            <name>I clear field "Website"</name>
+                            <title>I clear field "Website"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489389367' status='passed' stop='1654489389464'>
+                            <name>I fill field "Website", "http://estel.name"</name>
+                            <title>I fill field "Website", "http://estel.name"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489389464' status='passed' stop='1654489390003'>
+                            <name>I clear field "Date"</name>
+                            <title>I clear field "Date"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489390003' status='passed' stop='1654489390501'>
+                            <name>I fill field "Date", "4/5/2022"</name>
+                            <title>I fill field "Date", "4/5/2022"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489390501' status='passed' stop='1654489390501'>
+                            <name>And I exclude Email and send form</name>
+                            <title>And I exclude Email and send form</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1654489390503' status='passed' stop='1654489390972'>
+                    <name>IonContactPage: removeEmail </name>
+                    <title>IonContactPage: removeEmail </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1654489390503' status='passed' stop='1654489390971'>
+                            <name>I clear field "Email"</name>
+                            <title>I clear field "Email"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1654489390972' status='passed' stop='1654489391071'>
+                    <name>IonContactPage: sendForm </name>
+                    <title>IonContactPage: sendForm </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1654489390972' status='passed' stop='1654489391010'>
+                            <name>I wait for clickable {"css":".contact-submit .pushbutton-wide"}</name>
+                            <title>I wait for clickable {"css":".contact-submit .pushbutton-wide"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489391010' status='passed' stop='1654489391070'>
+                            <name>I click {"css":".contact-submit .pushbutton-wide"}</name>
+                            <title>I click {"css":".contact-submit .pushbutton-wide"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1654489391070' status='passed' stop='1654489391070'>
+                            <name>Then I see that the form is not accepted</name>
+                            <title>Then I see that the form is not accepted</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1654489391071' status='failed' stop='1654489392088'>
+                    <name>I wait for invisible "form.contact-form"</name>
+                    <title>I wait for invisible "form.contact-form"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element (form.contact-form) still visible after 1 sec</message>
+                <stack-trace>Error: element (form.contact-form) still visible after 1 sec
+                    at C:\Users\saeed\Desktop\bluescape_mini_project\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at async Browser.wrapCommandFn (C:\Users\saeed\Desktop\bluescape_mini_project\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
